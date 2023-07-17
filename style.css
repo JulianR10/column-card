@@ -44,7 +44,11 @@ html{
 
 .column-1{
     background-color: var(--bright-orange);
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
 }
 
 .column-2{
@@ -53,7 +57,11 @@ html{
 
 .column-3{
     background-color: var(--very-dark-cyan);
-    border-radius: 0 0 15px 15px;;
+    border-radius: 0 15px 15px 0;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
 }
 
 h1{
@@ -102,4 +110,18 @@ button{
         width: 80%;
         padding: 20px 0;
     }
+    .column-1{
+        border-radius: 15px 15px 0 0 ;
+        -webkit-border-radius: 15px 15px 0 0 ;
+        -moz-border-radius: 15px 15px 0 0 ;
+        -ms-border-radius: 15px 15px 0 0 ;
+        -o-border-radius: 15px 15px 0 0 ;
+    }
+    .column-3{
+        border-radius: 0 0 15px 15px;
+        -webkit-border-radius: 0 0 15px 15px;
+        -moz-border-radius: 0 0 15px 15px;
+        -ms-border-radius: 0 0 15px 15px;
+        -o-border-radius: 0 0 15px 15px;
+}
 }
